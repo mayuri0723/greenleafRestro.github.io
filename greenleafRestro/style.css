@@ -1,0 +1,75 @@
+@font-face {
+    font-family: dance;
+    src: url(./fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+#bg{
+    background-image: url("C:\Users\Mayuri\Desktop\Blog\Main\Images\edward-franklin-Nb_Q-M3Cdzg-unsplash.jpg");
+}
+row row-cols-4{
+    background-color: lightgreen;
+}
+
+.col div label{
+    color:white; 
+    font-size: 20px;
+    margin: auto 20px;
+}
+.col div svg{
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    color:rgb(50, 173, 50);
+    margin: auto;
+}
+.col div{
+    display: flex;
+    justify-content: center;
+}
+.style-1{
+    display: flex;
+    justify-content: space-evenly;
+    width:30%;
+}
+.style-1 h6{
+   margin: auto; 
+}
+.back{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./Images/edward-franklin-Nb_Q-M3Cdzg-unsplash2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height:90vh;
+    
+    
+}
+.col-sm-6{
+    font-size: 30px;
+    font-style: bold;
+}
+
+.single-div{
+    display: flex;
+    justify-content: flex-start;
+}
+.single-div label{
+    padding: 20px 0px;
+    margin: auto 20px auto auto;
+}
+.single-div svg{
+    margin: auto;
+}
+
+#special div{
+    border-right: 1px solid white;
+    color: white;
+    margin: 5px 0;
+}
+
+#navbarNavDropdown ul li a{
+    font-size: 20px;
+}
+
+.card-header div svg{
+    margin: auto 10px;
+}
